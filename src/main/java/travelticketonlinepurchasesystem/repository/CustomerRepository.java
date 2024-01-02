@@ -7,4 +7,6 @@ import java.util.Optional;
 
 public interface CustomerRepository extends BaseEntityRepository<Integer, Customer> {
       public Optional<Customer> login(String username, String password);
+
+      Optional<Customer> findByMobileNumber(String mobileNumber);
 }
