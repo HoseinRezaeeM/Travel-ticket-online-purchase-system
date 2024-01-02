@@ -30,4 +30,12 @@ public class CustomerRepositoryImpl extends BaseEntityRepositoryImpl<Integer, Cu
                   return Optional.empty();
             }
       }
+
+      @Override
+      public Optional<Customer> findByMobileNumber(String mobileNumber) {
+            return Optional.ofNullable(entityManager
+                   .createQuery("FROM Customer c WHERE c.mobileNumber =:mobileNumber", Customer.class)
+                   .setParameter("mobileNumber",mobileNumber)
+                   .getSingleResult());
+      }
 }
