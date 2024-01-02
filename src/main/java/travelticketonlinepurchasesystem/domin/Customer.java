@@ -31,4 +31,8 @@ public class Customer extends BaseEntity<Integer> {
             this.username = mobileNumber;
             this.password = generatePassword();
       }
+
+      public Customer(Integer integer) {
+            super(integer);
+      }
 }
