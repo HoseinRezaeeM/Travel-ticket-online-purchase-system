@@ -9,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.ManyToOne;
+import java.time.LocalDate;
 
 @Entity
 @Getter
@@ -16,14 +17,14 @@ import javax.persistence.ManyToOne;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
 @NoArgsConstructor
+@AllArgsConstructor
 public class Ticket extends BaseEntity<Integer> {
       String fullname;
-      @Enumerated(value = EnumType.STRING)
-      Gender gender;
+      String gender;
       @ManyToOne
       Trip trip;
       @ManyToOne
       Customer customer;
-
+      LocalDate purchaseData;
 
 }
