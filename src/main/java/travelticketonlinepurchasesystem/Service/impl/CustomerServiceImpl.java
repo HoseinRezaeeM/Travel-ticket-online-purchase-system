@@ -16,4 +16,9 @@ public class CustomerServiceImpl extends BaseEntityServiceImpl<Integer, Customer
       public Optional<Customer> login(String username, String password) {
             return baseRepository.login(username,password);
       }
+
+      @Override
+      public Optional<Customer> findByMobileNumber(String mobileNumber) {
+            return baseRepository.findByMobileNumber(mobileNumber);
+      }
 }
