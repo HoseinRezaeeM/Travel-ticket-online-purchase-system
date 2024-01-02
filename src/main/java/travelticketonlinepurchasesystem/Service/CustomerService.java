@@ -7,4 +7,5 @@ import java.util.Optional;
 
 public interface CustomerService extends BaseEntityService<Integer, Customer> {
       public Optional<Customer> login(String username, String password);
+      Optional<Customer> findByMobileNumber(String mobileNumber);
 }
