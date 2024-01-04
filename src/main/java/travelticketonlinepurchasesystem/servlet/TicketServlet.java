@@ -41,8 +41,6 @@ public class TicketServlet extends HttpServlet {
                   Ticket ticketBuy = ApplicationContex.getTicketServiceImpl().save(ticket);
                   logger.info("  Ticket  : " + ticketBuy);
 
-
-
                   req.setAttribute("ticketBuy",ticketBuy);
                   RequestDispatcher dispatcher = req.getRequestDispatcher("sucess.jsp");
                   dispatcher.forward(req, resp);
