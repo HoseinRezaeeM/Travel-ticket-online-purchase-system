@@ -44,6 +44,7 @@ public class TicketServlet extends HttpServlet {
                   req.setAttribute("ticketBuy",ticketBuy);
                   RequestDispatcher dispatcher = req.getRequestDispatcher("sucess.jsp");
                   dispatcher.forward(req, resp);
+
             }else {
                   RequestDispatcher dispatcher = req.getRequestDispatcher("register.jsp");
                   dispatcher.forward(req, resp);
