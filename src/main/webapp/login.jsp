@@ -23,8 +23,8 @@
 
 <form class="form" action="login" method="post">
     <h1>ورود به سیستم </h1>
-    <input type="text" placeholder="نام کاربری" name="username">
-    <input type="password" placeholder="رمز عبور" name="password">
+    <input type="text" placeholder="نام کاربری" name="username" required>
+    <input type="password" placeholder="رمز عبور" name="password" required>
     <input class="vorod" type="submit" value="ورود">
 </form>
 </div>
