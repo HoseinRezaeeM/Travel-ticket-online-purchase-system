@@ -24,6 +24,7 @@
     </div>
         <%
     Ticket ticketBuy = (Ticket) request.getAttribute("ticketBuy");
+
 %>
 
         <%
@@ -43,6 +44,5 @@
         <h3> شناسه بلیط : <%=ticketBuy.getId()%>
         </h3>
     </div>
-
 </body>
 </html>
