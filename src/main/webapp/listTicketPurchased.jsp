@@ -39,7 +39,7 @@
         <tr>
             <td><%=ti.getPurchaseData()%></td>
             <td><%=ti.getId()%></td>
-            <td><form action="see" method="get"> <input type="submit"  name="idTic" value="<%=ti.getId()%>"></form></td>
+            <td><form action="see" method="get"><a type="submit" href="see?idTic=<%= ti.getId() %>"> مشاهده بلیط</a></form></td>
         </tr>
         <% } %>
         </tbody>
