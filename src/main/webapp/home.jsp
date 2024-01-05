@@ -1,4 +1,5 @@
-<%--
+<%@ page import="travelticketonlinepurchasesystem.util.ApplicationContex" %>
+<%@ page import="java.io.OutputStream" %><%--
   Created by IntelliJ IDEA.
   User: sp
   Date: 1/1/2024
@@ -18,11 +19,14 @@
 </head>
 <body>
 <div class="home">
+
     <div class="navb">
         <a href="home.jsp">صفحه اول</a>
         <a href="login.jsp">ورود</a>
         <a href="register.jsp">ثبت نام</a>
         <a href="balance.jsp">کیف پول</a>
+        <div class="Deve">
+      <h3>Develope By : Hosein Rezaei</h3></div>
     </div>
 
     <div id="carouselExampleCaptions" class="carousel slide">
@@ -70,14 +74,14 @@
     <div class="trip-form">
         <form class="form-travel" action="trip" method="get">
             <label>نوع وسیله
-                <select id="vehicle" name="vehicleType">
+                <select id="vehicle" name="vehicleType" required>
                     <option value="">لطفا وسیله را انتخاب نمایید</option>
                     <option value="هواپیما">هواپیما</option>
                     <option value="قطار">قطار</option>
                     <option value="اتوبوس">اتوبوس</option>
                 </select></label>
             <label>مبدا
-                <select id="origin" name="origin" accesskey="">
+                <select id="origin" name="origin" accesskey="" required>
                     <option value="">لطفا مبدا را انتخاب نمایید</option>
                     <option value="تهران">تهران</option>
                     <option value="اصفهان">اصفهان</option>
@@ -85,7 +89,7 @@
                     <option value="مشهد">مشهد</option>
                 </select></label>
             <label>مقصد
-                <select id="destination" name="destination">
+                <select id="destination" name="destination" required>
                     <option value="">لطفا مقصد را انتخاب نمایید</option>
                     <option value="تهران">تهران</option>
                     <option value="اصفهان">اصفهان</option>
@@ -93,7 +97,7 @@
                     <option value="مشهد">مشهد</option>
                 </select></label>
             <label>تاریخ حرکت
-                <input class="date" type="date" name="startDate" min="2024-01-01" max="2025-01-30"/></label>
+                <input class="date" type="date" name="startDate" min="2024-01-01" max="2025-01-30" required/></label>
             <input class="search" type="submit" value="جستجو">
         </form>
     </div>
