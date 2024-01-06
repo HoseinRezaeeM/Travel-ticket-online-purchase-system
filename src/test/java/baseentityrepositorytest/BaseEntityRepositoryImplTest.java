@@ -54,4 +54,3 @@ import static org.junit.jupiter.api.Assertions.*;
                   Assertions.assertNotNull(all);
             }
       }
-}
