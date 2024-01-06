@@ -2,8 +2,10 @@ body {
     padding: 0;
     margin: 0;
 color: darkmagenta;
+
 }
 *{
+
     font-family: "2  Kamran", ui-sans-serif;
     font-weight:900;
 }
@@ -11,16 +13,21 @@ color: darkmagenta;
     background-image: url("./travel-04.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: darkmagenta;
+
 }
 .trip-form, .trip-list {
     padding: 0;
     margin: 0;
-    background-image: url("./QUDD7JWRe4gYck2NSY9DkAtE.png");
+    background-image: url("./travel-04.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: darkmagenta;
+
 }
+
 .triplist h1{
     margin-top: 200px;
 }
@@ -39,7 +46,7 @@ color: darkmagenta;
 }
 .navb a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
     box-sizing: border-box;
     color: darkblue;
     padding: 10px;
@@ -61,15 +68,15 @@ color: darkmagenta;
     text-align: right;
     margin-top: 320px;
     padding: 30px;
-    gap: 20px;
+    gap: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+    font-size: 45px;
     box-shadow: 0 0 20px 2px rgb(25, 70, 252);;
     border: solid rgb(25, 70, 252);
-    width: 1200px;
+    width: 1400px;
 }
 
 .form-travel label {
@@ -77,11 +84,11 @@ color: darkmagenta;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .form-travel select {
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
     border-radius: 20px;
 }
@@ -95,11 +102,11 @@ color: darkmagenta;
     border-radius: 15px;
     text-align: right;
     padding: 30px;
-    gap: 30px;
+    gap: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 1200px;
+    width: 1300px;
     transform: translate(-50%, -50%);
     font-size: 30px;
     box-shadow: 0 0 20px 2px rgb(25, 70, 252);;
@@ -111,8 +118,9 @@ color: darkmagenta;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 35px;
 }
+
 .tickett{
     border-radius: 10px;
     box-sizing: border-box;
@@ -136,7 +144,7 @@ color: darkmagenta;
     font-size: 30px;
 }
 .form-travelno select {
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
     border-radius: 20px;
 }
@@ -224,40 +232,66 @@ color: darkmagenta;
     justify-content: center;
     justify-items: center;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
-    height: 650px;
-    gap: 10px;
-    font-size: 15px;
-    padding: 10px;
+    width: 470px;
+    height: 750px;
+    gap: 5px;
+    font-size: 13px;
+    padding: 16px;
     border-radius: 20px;
-    background-color: #fef529;
+    background-color: #9ef9b5;
     box-shadow: 0 0 20px 2px rgb(25, 70, 252);;
     border: solid rgb(25, 70, 252);
 }
 
 .form-register label {
     text-align: right;
-    font-size: 30px;
+    font-size: 23px;
+    font-weight: bolder;
 }
 
 .form-register h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
+    color: #021875;
+    font-weight: bolder;
 }
 
 .form-register input {
     border-radius: 15px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 21px;
 }
+.submitt{
+    width: 100%;
+    background-color: #f691f9;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.submitt:hover{
+    background-color: orange;
+    border-color: orange;
+}
+legend{
+    font-size: 25px;
+}
+.Deve{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1000px;
+    margin-top: 20px;
+    text-align: left;
+    color: #052dce;
 
+}
 .submit {
     margin-top: 30px;
     padding-top: 50px;
 }
+
 
 .submit:hover {
     background-color: cyan;
@@ -266,11 +300,12 @@ color: darkmagenta;
 
 
 h5 {
-    font-size: 50px;
-    color: white;
-    background-color: #8202a2;
+    font-size: 80px;
+    color: #2f0140;
     padding: 15px;
-    border-radius: 20px;
+    font-weight: bolder;
+
+
 }
 
 .card img {
@@ -350,7 +385,7 @@ strong {
     border-radius: 20px;
     border: solid 2px #de6079;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     width: 100px;
 }
 
@@ -410,9 +445,9 @@ input[type="radio"]{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 400px;
+    width: 350px;
     height: 380px;
-    gap: 10px;
+    gap: 20px;
     padding: 20px;
     border-radius: 20px;
     position: absolute;
@@ -420,14 +455,14 @@ input[type="radio"]{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #ffd700;
-    box-shadow: 0 0 20px 2px rgb(25, 70, 252);;
-    border: solid rgb(25, 70, 252);
+    box-shadow: 0 0 20px 2px rgb(27, 124, 3);;
+    border: solid rgb(27, 124, 3);
 }
 
 .buye input {
     border-radius: 15px;
-    padding: 3px;
-    font-size: 30px;
+    padding: 1px;
+    font-size: 20px;
     text-align: center;
     background-color: white;
     border: solid white;
@@ -478,3 +513,8 @@ table.blueTable tfoot input{
     background-color: #9000ff;
     width: 300px;
 }
+[type="radio"] {
+    height:30px;
+    width:40px;
+}
+
