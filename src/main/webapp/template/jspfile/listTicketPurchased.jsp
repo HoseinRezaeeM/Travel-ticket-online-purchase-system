@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <style><%@include file="./style.css"%></style>
+    <style><%@include file="../cssfile/style.css"%></style>
     <title>لیست بلیط خریداری شده </title>
 </head>
 <body class="trip-list">

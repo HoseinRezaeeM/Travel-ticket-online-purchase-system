@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>
-    <style><%@include file="./style.css"%></style>
+    <style><%@include file="../cssfile/style.css"%></style>
 </head>
 <body>
 <div class="home">
@@ -42,20 +42,20 @@
         </div>
         <div class="carousel-inner justify-content-end">
             <div class="carousel-item active">
-                <img src="./travel-04.jpg" height="550" class="d-block w-100" alt="...">
+                <img src="../image/travel-04.jpg" height="550" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
                     <h5>بزن بریم سفر </h5>
                     <a type="button" href="register.jsp" class="btn btn-primary btn-lg">ثبت نام</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./Traveling.jpg" height="550"
+                <img src="../image/Traveling.jpg" height="550"
                      class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./Sunbather-in-chair.jpg" height="550" class="d-block w-100" alt="...">
+                <img src="../image/Sunbather-in-chair.jpg" height="550" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>

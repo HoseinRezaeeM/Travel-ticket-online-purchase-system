@@ -9,7 +9,7 @@
 <html>
 <head>
     <style>
-        <%@include file="./style.css" %>
+        <%@include file="../cssfile/style.css" %>
     </style>
     <title>تکمیل اطلاعات مسافر</title>
 </head>

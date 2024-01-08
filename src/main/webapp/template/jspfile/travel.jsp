@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Title</title>
-    <style><%@include file="./style.css"%></style>
+    <style><%@include file="../cssfile/style.css"%></style>
 </head>
 <body class="boody">
 <div class="home">

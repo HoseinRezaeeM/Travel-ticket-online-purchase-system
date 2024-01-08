@@ -13,7 +13,7 @@
 <head>
     <title>Title</title>
     <style>
-        <%@include file="./style.css" %>
+        <%@include file="../cssfile/style.css" %>
     </style>
 </head>
 <body class="boody">
