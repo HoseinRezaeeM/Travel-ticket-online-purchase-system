@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.util.List;
 
-@WebServlet("/trip")
+@WebServlet("/template/jspfile/trip")
 public class TripServlet extends HttpServlet {
       @Override
       protected void doGet(HttpServletRequest request

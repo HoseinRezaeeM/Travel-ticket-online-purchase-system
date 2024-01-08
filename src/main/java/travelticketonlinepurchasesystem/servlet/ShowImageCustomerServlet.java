@@ -10,7 +10,7 @@ import travelticketonlinepurchasesystem.util.ApplicationContex;
 import java.io.IOException;
 import java.io.OutputStream;
 
-@WebServlet("/image")
+@WebServlet("/template/jspfile/image")
 public class ShowImageCustomerServlet extends HttpServlet {
       protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 

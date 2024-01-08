@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Optional;
 
-@WebServlet("/register")
+@WebServlet("/template/jspfile/register")
 @MultipartConfig
 public class RegisterSerlvlet extends HttpServlet {
       @Override

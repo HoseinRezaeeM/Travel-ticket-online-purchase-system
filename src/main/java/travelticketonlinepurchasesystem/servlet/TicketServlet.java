@@ -17,7 +17,7 @@ import travelticketonlinepurchasesystem.util.ApplicationContex;
 import java.io.IOException;
 import java.time.LocalDate;
 
-@WebServlet("/ticket")
+@WebServlet("/template/jspfile/ticket")
 public class TicketServlet extends HttpServlet {
       private static final Logger logger = LogManager.getLogger(TicketServlet.class);
 //      static {

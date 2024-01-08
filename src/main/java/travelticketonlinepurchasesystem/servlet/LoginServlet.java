@@ -15,7 +15,7 @@ import java.io.IOException;
 
 import java.util.Optional;
 
-@WebServlet("/login")
+@WebServlet("/template/jspfile/login")
 public class LoginServlet extends HttpServlet {
       @Override
       protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

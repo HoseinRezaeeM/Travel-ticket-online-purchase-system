@@ -13,7 +13,7 @@ import travelticketonlinepurchasesystem.util.ApplicationContex;
 import java.io.IOException;
 import java.util.Optional;
 
-@WebServlet("/see")
+@WebServlet("/template/jspfile/see")
 public class TicketSeeServlet extends HttpServlet {
       @Override
       protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

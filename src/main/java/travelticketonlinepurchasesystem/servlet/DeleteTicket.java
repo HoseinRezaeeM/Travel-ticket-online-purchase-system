@@ -13,7 +13,7 @@ import travelticketonlinepurchasesystem.util.ApplicationContex;
 import java.io.IOException;
 import java.util.Optional;
 
-@WebServlet("/del")
+@WebServlet("/template/jspfile/del")
 public class DeleteTicket extends HttpServlet {
       @Override
       protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
