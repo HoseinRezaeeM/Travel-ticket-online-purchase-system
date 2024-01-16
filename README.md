@@ -1,4 +1,4 @@
-<h1 align="center">images project</h1>
+<h2 align="center">images project</h2>
 <div>
   <img src="https://github.com/HoseinRezaeeM/Travel-ticket-online-purchase-system/blob/master/image-site/05.01.2024_13.48.11_REC.png">
   <img src="https://github.com/HoseinRezaeeM/Travel-ticket-online-purchase-system/blob/master/image-site/03.01.2024_14.19.10_REC.png">
